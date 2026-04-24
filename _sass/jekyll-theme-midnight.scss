@@ -312,3 +312,33 @@ section {
     display: none;
   }
 }
+
+.level-grid {
+  display: grid;
+  /* Creates a 2x2 grid by default, or adjust the number as needed */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 16px;
+  max-width: 400px; /* Optional: centers/constrains the grid */
+  margin: 0 auto;
+}
+
+.level-card {
+  aspect-ratio: 1 / 1; /* Key property: forces the height to match the width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #333;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.level-card:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.easy { background-image: url('easy-bg.png'); }
