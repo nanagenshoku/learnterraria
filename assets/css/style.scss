@@ -22,7 +22,6 @@
   background-size: cover;      /* Makes image fill the square */
   background-position: center;  /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
-  background: #473730;
   
   /* 3. Text Styling (For readability over images) */
   color: white;
@@ -47,3 +46,7 @@
   display: flex;       /* Centers the button inside the square cell */
   text-decoration: none;
 }
+
+.easy {
+  background: transparent url('../../easy-bg.png')
+} 
