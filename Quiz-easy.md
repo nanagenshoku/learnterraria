@@ -27,10 +27,26 @@ layout: default
   </div>
 
   <!-- Question 2 -->
-  <div class="question-step">
-    <h3>Question 2: Who is the first boss?</h3>
+  <div class="question-step active">
+    <h3>Question 2: What are the items that you get when first spawning?</h3>
     
-    <button onclick="nextQuestion(2)">Next</button>
+    <form class="quiz-form">
+    <label>
+      <input type="radio" name="type" value="wrong"> Iron Shortsword, Iron Pickaxe, and Iron Axe
+    </label><br>
+    <label>
+      <input type="radio" name="type" value="correct"> Tin Shortsword, Tin Pickaxe, and Tin Axe
+    </label><br>
+    <label>
+      <input type="radio" name="type" value="wrong"> Copper Shortsword, Copper Pickaxe, and Copper Axe
+    </label><br><br>
+  </form>
+    
+    <p class="result-message checks"></p>
+    
+    <button type="button" class="submit" onclick="checkAnswer(this)">Check Answer</button>
+    
+    <button onclick="nextQuestion(2)" class="next-btn submit">Next</button>
   </div>
 
   <!-- Result Screen -->
