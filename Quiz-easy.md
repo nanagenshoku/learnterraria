@@ -56,10 +56,10 @@ function checkAnswer() {
   }
 
   if (selected.value === "correct") {
-    result.textContent = "Correct! The ancient spirits of light and dark have been released.";
+    result.textContent = "Correct!";
     result.style.color = "green";
   } else {
-    result.textContent = "Wrong! Try again, Noob.";
+    result.textContent = "Wrong! Try again.";
     result.style.color = "red";
   }
 }
