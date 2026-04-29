@@ -16,7 +16,6 @@ layout: default
       <input type="radio" name="type" value="wrong"> Small
     </label><br><br>
   </form>
-
   <p id="result-message" class="checks"></p>
 
   <h3>What items did you get when first spawning?</h3>
@@ -35,7 +34,6 @@ layout: default
        <input type="radio" name="type" value="correct"> Copper Shortsword, Copper Pickaxe, Copper Axe
      </label><br><br>
   </form>
-  
   <p id="result-message" class="checks"></p>
   
   <button type="button" class="submit" onclick="checkAnswer()">
