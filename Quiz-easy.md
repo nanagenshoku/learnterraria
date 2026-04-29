@@ -23,7 +23,7 @@ layout: default
     
     <button type="button" class="submit" onclick="checkAnswer(this)">Check Answer</button>
     
-    <button onclick="nextQuestion(1)" class="next-btn" disabled>Next</button>
+    <button onclick="nextQuestion(1)" class="next-btn submit" disabled>Next</button>
   </div>
 
   <!-- Question 2 -->
