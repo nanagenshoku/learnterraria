@@ -21,7 +21,7 @@ layout: default
     
     <p class="result-message checks"></p>
     
-    <button type="button" class="submit" onclick="checkAnswer(this)">
+    <button type="button" class="submit" onclick="checkAnswer(this)">Check Answer</button>
     
     <button onclick="nextQuestion(1)" class="next-btn" disabled>Next</button>
   </div>
