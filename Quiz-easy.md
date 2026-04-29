@@ -35,10 +35,13 @@ layout: default
       <input type="radio" name="type" value="wrong"> Iron Shortsword, Iron Pickaxe, and Iron Axe
     </label><br>
     <label>
-      <input type="radio" name="type" value="correct"> Tin Shortsword, Tin Pickaxe, and Tin Axe
+      <input type="radio" name="type" value="wrong"> Tin Shortsword, Tin Pickaxe, and Tin Axe
     </label><br>
     <label>
-      <input type="radio" name="type" value="wrong"> Copper Shortsword, Copper Pickaxe, and Copper Axe
+      <input type="radio" name="type" value="wrong"> Tungsten Shortsword, Tungsten Pickaxe, and Tungsten Axe
+    </label><br>
+    <label>
+      <input type="radio" name="type" value="correct"> Copper Shortsword, Copper Pickaxe, and Copper Axe
     </label><br><br>
   </form>
     
