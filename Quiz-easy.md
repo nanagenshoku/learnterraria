@@ -5,9 +5,9 @@ layout: default
 <div id="quiz-container" class="quiz">
   <!-- Question 1 -->
   <div class="question-step active">
-    <h3>Question 1: What is Terraria?</h3>
+    <h3>Question 1: What is the recommended world size for beginners?</h3>
     
-    <form id="quiz-form">
+    <form class="quiz-form">
     <label>
       <input type="radio" name="type" value="wrong"> Large
     </label><br>
