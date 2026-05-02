@@ -81,6 +81,16 @@
   opacity: 0.5;
 }
 
+.next-btn {
+  transition: all 0.3s ease;
+}
+
+.next-btn:not(:disabled) {
+  background-color: #4CAF50; /* Green when unlocked */
+  cursor: pointer;
+  transform: scale(1.05); /* Slight pop when enabled */
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
