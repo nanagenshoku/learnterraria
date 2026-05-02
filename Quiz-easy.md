@@ -94,13 +94,9 @@ function checkAnswer(btn) {
 
 
 function nextQuestion(currentStep) {
-  // Get all question divs
   const steps = document.querySelectorAll('.question-step');
-  
-  // Hide current step
   steps[currentStep - 1].classList.remove('active');
   
-  // Show next step
   if (steps[currentStep]) {
     steps[currentStep].classList.add('active');
   }
